@@ -2,13 +2,11 @@
 //file to display text on click
   $data=isset($_REQUEST['text'])?$_REQUEST['text']:'';
   if($data!=''){
-<<<<<<< HEAD
-    echo $data;
-=======
-    echo "$data";
-    
->>>>>>> ec08ea09fcbf30bbb921296d6669e6ebce0f0e13
-  }
+    echo "{$data}";
+}
+
+
+
 ?>
 
 <!DOCTYPE html>
