@@ -1,4 +1,3 @@
-
 <?php
 //file to display text on click
   $data=isset($_REQUEST['text'])?$_REQUEST['text']:'';
