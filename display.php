@@ -3,7 +3,6 @@
   $data=isset($_REQUEST['text'])?$_REQUEST['text']:'';
   if($data!=''){
     echo $data;
-    
   }
 ?>
 
